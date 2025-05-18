@@ -1,4 +1,4 @@
 #!/bin/bash
 #!/bin/bash
-pushd $(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) >>/dev/null
+pushd $(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd) >/dev/null
 popd >>/dev/null
